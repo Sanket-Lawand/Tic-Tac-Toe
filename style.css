@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  padding: 80px;
+  background: url(tiktaktao.jpg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  color: rgb(200, 223, 223);
+}
+
+.container {
+  font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: 3px solid #04c013;
+  box-shadow: 0 0 1rem rgba(194, 76, 76, 0.3);
+  font-size: 8vmin;
+  color: #2b2b2b;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #04c013;
+  color: #ffffff;
+  border-radius: 1rem;
+  border: none;
+  margin: 20px;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #04c013;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  margin: 20px;
+}
+
+#msg {
+  color: #515151;
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+
+}
+
+.msg-box{
+  height: 450px;
+  width: 450px;
+  background-color: #ededede6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+
+}
+
+.hide {
+  display: none;
+}
+
